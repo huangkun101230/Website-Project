@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://suns.co.nz/</loc>
+  <lastmod>2018-09-08T12:48:22+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://suns.co.nz/index.html</loc>
+  <lastmod>2018-09-08T12:48:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://suns.co.nz/services.html</loc>
+  <lastmod>2018-09-08T12:28:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://suns.co.nz/project.html</loc>
+  <lastmod>2018-09-08T12:28:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://suns.co.nz/aotea_project.html</loc>
+  <lastmod>2018-09-08T12:28:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://suns.co.nz/aotea_project2.html</loc>
+  <lastmod>2018-09-08T12:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://suns.co.nz/churton_park_project.html</loc>
+  <lastmod>2018-09-08T12:28:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://suns.co.nz/khandallah_project.html</loc>
+  <lastmod>2018-09-08T12:28:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://suns.co.nz/lower_hutt_project.html</loc>
+  <lastmod>2018-09-08T12:28:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://suns.co.nz/madera_whitby_project.html</loc>
+  <lastmod>2018-09-08T12:28:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://suns.co.nz/wise_st_project.html</loc>
+  <lastmod>2018-09-08T12:28:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://suns.co.nz/contactUs.html</loc>
+  <lastmod>2018-09-08T12:28:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>

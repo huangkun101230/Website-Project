@@ -1,0 +1,392 @@
+.menu-container {
+  background: url("../img/index_pic/backgroundpic.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-attachment: scroll;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.bw-gradient {
+  width: 100%;
+  float: left;
+  height: 100vh;
+  position: absolute;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+11,0+100 */
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.65) 11%, rgba(0, 0, 0, 0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.65) 11%, rgba(0, 0, 0, 0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.65) 11%, rgba(0, 0, 0, 0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a6000000', endColorstr='#00000000', GradientType=0); /* IE6-9 */
+}
+
+.wraptext {
+  font-weight: 900;
+  font-size: 2em;
+  color: #e7e7e7;
+  position: absolute;
+  z-index: 5;
+  top: 120px;
+  left: 130px;
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  .menu-container {
+    background-attachment: initial;
+  }
+}
+
+@media screen and (max-width: 965px) {
+  .wraptext {
+    font-size: 1.8em;
+    top: 90px;
+    left: 90px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .wraptext {
+    font-size: 1.5em;
+    top: 120px;
+    left: 30px;
+  }
+}
+
+/* ==========================================================================
+ Services describes' styles
+ ========================================================================== */
+
+.servicesdescribe-container {
+  color: black;
+  background-color: white;
+  text-align: center;
+}
+
+.services-header-container {
+  width: 100%;
+  height: 200px;
+  background-color: rgb(4, 52, 100);
+  text-align: center;
+  color: white;
+  padding-top: 60px;
+  margin-bottom: 10px;
+}
+
+.services-header-container h3 {
+  padding-top: 30px;
+}
+
+
+.services-detail-container img {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.services-detail-container img:hover {
+  border: 1px solid #777;
+  opacity: 0.7;
+}
+
+#service1 img:hover, #service2 img:hover {
+  border: 1px solid #ccc;
+  opacity: 1;
+}
+
+.services-detail-container.img img {
+  width: 100%;
+  height: auto;
+}
+
+.services-detail-container.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.servicesitem {
+  padding: 10px 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 1100px) {
+  .servicesitem {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .servicesitem {
+    width: 100%;
+    margin: 5px 0;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.findoutmore > a {
+  font-size: 20px;
+  margin-top: 20px;
+  padding: 5px;
+  color: white;
+  background-color: rgb(4, 52, 100);
+  text-decoration: none;
+  border-radius: 7px;
+  /*border-top-left-radius: 15px;*/
+  /*border-bottom-right-radius: 15px;*/
+}
+
+.findoutmore > a:hover {
+  background-color: rgb(14, 136, 235);
+}
+
+/* ==========================================================================
+   project' styles
+   ========================================================================== */
+/*.project {display:none}*/
+
+.project-detail-container {
+  position: relative;
+  background-color: white;
+  overflow: hidden;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.project-header-container {
+  width: 100%;
+  height: 200px;
+  background-color: rgb(4, 52, 100);
+  text-align: center;
+  color: white;
+  padding-top: 60px;
+  margin-bottom: 40px;
+}
+
+.project {
+  max-width: 1100px;
+  margin: auto;
+  display: inline-block;
+}
+
+.project img {
+  max-width: 600px;
+  max-height: 400px;
+  float: right;
+  margin: auto;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 40px;
+  border-radius: 10px;
+}
+
+/* describe text */
+.text {
+  color: black;
+  font-size: 18px;
+  padding: 8px 12px;
+  bottom: 8px;
+  text-align: left;
+  width: 30%;
+  display: inline-block;
+  margin-top: 3%;
+  overflow: hidden;
+}
+
+.viewbutton {
+  float: none;
+  text-align: center;
+  display: block;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.viewbutton a {
+  font-size: 20px;
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+  position: center;
+  background-color: rgb(4, 52, 100);
+  border-radius: 7px;
+}
+
+.viewbutton a:hover {
+  background-color: rgb(14, 136, 235);
+
+}
+
+/*prev & next button in project container*/
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  /*width: auto;*/
+  padding: 5px;
+  float: left;
+  overflow: hidden;
+  margin-top: 10%;
+  color: white;
+  background-color: rgba(169, 169, 169, 0.5);
+  font-size: 80px;
+  transition: 0.6s ease;
+  border-radius: 15px;
+  font-weight: lighter;
+  z-index: 1;
+}
+
+/*reposition next button*/
+.next {
+  float: right;
+  right: 1%;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  /*background-color: rgba(0,0,0,0.8);*/
+  background-color: rgba(169, 169, 169, 1);
+  color: rgb(4, 52, 100);
+}
+
+@media only screen and (max-width: 880px) {
+  .text {
+    /*text-align: center;*/
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .project img {
+    max-width: 880px;
+    max-height: 587px;
+  }
+
+  .prev, .next {
+    margin-top: 22%;
+  }
+
+}
+
+/* ==========================================================================
+   contact' styles
+   ========================================================================== */
+
+.contact-container {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.contact-header-container {
+  width: 100%;
+  height: 200px;
+  background-color: rgb(4, 52, 100);
+  text-align: center;
+  color: white;
+  padding-top: 60px;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+
+.contact-header-container h3 {
+  padding-top: 30px;
+}
+
+.contactdetails-container {
+  margin: 0 10%;
+  /*display: block;*/
+}
+
+.contactdetails-container a {
+  display: block;
+}
+
+.contacticon {
+  padding: 0 6px;
+  float: left;
+  width: 24.99%;
+  display: inline-block;
+  margin-top: 0;
+}
+
+.contacticon .img img {
+  width: 70px;
+  height: 70px;
+  margin-top: 40%;
+}
+
+.contacticon img:hover {
+  opacity: 0.7;
+}
+
+.contacticonname {
+  margin-top: 5px;
+  padding: 15px;
+  text-align: center;
+  color: rgb(4, 52, 100);
+}
+
+.contacticondetail a {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.contacticondetail a:hover {
+  color: rgb(225, 39, 43);
+}
+
+.map-container {
+  display: block;
+  margin-top: 10%;
+}
+
+.map-header-container {
+  width: 100%;
+  height: 200px;
+  background-color: rgb(4, 52, 100);
+  text-align: center;
+  color: white;
+  padding-top: 60px;
+  margin-bottom: 50px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.map-header-container h3 {
+  padding-top: 30px;
+}
+
+#mapid {
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .contacticon {
+    width: 100%;
+    margin: 0;
+    display: block;
+  }
+
+  .contacticon .img img {
+    width: 70px;
+    height: 70px;
+    margin-top: 10%;
+  }
+
+  #mapid {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 50px;
+  }
+
+}

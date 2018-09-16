@@ -1,0 +1,201 @@
+/* ==========================================================================
+   Menu's styles
+   ========================================================================== */
+
+.header {
+  top: 0;
+}
+
+.sub-header {
+  background: linear-gradient(70deg, rgba(0, 34, 64, 1), silver);
+}
+
+/* ==========================================================================
+ Projects' styles
+ ========================================================================== */
+
+.projects-header-container {
+  width: 100%;
+  height: 200px;
+  background-color: rgb(220, 220, 220);
+  text-align: center;
+  color: black;
+  padding-top: 60px;
+  margin-bottom: 40px;
+  margin-top: 90px;
+}
+
+.sub-header.active .projects-header-container {
+  top: 70px;
+}
+
+.projects-header-container h5 {
+  text-align: left;
+}
+
+.projects-container {
+  margin-bottom: 50px;
+}
+
+/*project content*/
+.projects-container {
+  text-align: center;
+}
+
+.single-project {
+  margin-bottom: 10%;
+}
+
+.container {
+  position: relative;
+  width: 90%;
+  text-align: center;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 2% 5%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(4, 52, 100,0.9);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+  margin: 0 5%;
+  border-radius: 5px;
+}
+
+.container:hover .overlay {
+  width: 35%;
+}
+
+.stext {
+  display: block;
+  white-space: nowrap;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  left: 20%;
+}
+
+
+.stext {
+  top: 30%;
+}
+
+.stext p {
+  width: 30%;
+}
+
+.servicesicon {
+  width: 24px;
+  height: 24px;
+}
+
+.viewdetail {
+  text-transform: uppercase;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgb(4, 52, 100);
+}
+
+.viewdetail:hover {
+  background-color: rgb(14, 136, 235);
+}
+
+@media screen and (max-width: 1100px) {
+  .stext {
+    font-size: 15px;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .image {
+    margin: 2% 0;
+  }
+
+  .overlay {
+    margin: 0;
+  }
+
+  .container:hover .overlay {
+    width: 35%;
+  }
+}
+
+@media screen and (max-width: 965px) {
+  .servicesicon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .stext {
+    font-size: 15px;
+  }
+
+  .overlay {
+    width: 45%;
+  }
+
+  .container:hover .overlay {
+    width: 45%;
+  }
+
+  .viewdetail {
+    font-size: 15px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .servicesicon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .stext {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .servicesicon {
+    width: 15px;
+    height: 15px;
+  }
+
+  .stext {
+    font-size: 10px;
+  }
+
+  .overlay {
+    width: 40%;
+  }
+
+  .container:hover .overlay {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .stext {
+    left: 15%;
+  }
+}

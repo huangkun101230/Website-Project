@@ -1,0 +1,176 @@
+
+
+/* ==========================================================================
+   Menu's styles
+   ========================================================================== */
+
+.header {
+  top: 0;
+}
+
+.sub-header {
+  background: linear-gradient(70deg, rgba(0, 34, 64, 1), silver);
+}
+
+
+
+/* ==========================================================================
+ Projects' styles
+ ========================================================================== */
+
+.contacts-header-container {
+  width: 100%;
+  height: 200px;
+  background-color: rgb(220, 220, 220);
+  text-align: center;
+  color: black;
+  padding-top: 60px;
+  margin-bottom: 40px;
+  margin-top: 90px;
+}
+
+.sub-header.active .contacts-header-container {
+  top: 70px;
+}
+
+.contacts-header-container h5 {
+  text-align: left;
+}
+
+.contacts-container {
+  margin-bottom: 50px;
+}
+
+#mapid {
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.contacts-content {
+  width: 80%;
+  margin: 0 10%;
+  height: 300px;
+}
+
+/*.row {*/
+  /*display: flex;*/
+  /*flex-direction: row;*/
+  /*margin: 0 -16px;*/
+/*}*/
+
+
+/*.col {*/
+  /*flex: 1 1 0;*/
+  /*margin: 0 16px;*/
+
+/*}*/
+.col {
+  flex-direction: column;
+  display: flex;
+
+}
+
+.col2 {
+  flex-direction: column;
+  display: flex;
+  margin-top: -24.4%;
+  margin-left: 50%;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+.contact-img {
+  /*display: inline-block;*/
+  float: left;
+}
+
+.contact-img img {
+  width: 5vw;
+}
+
+.col .contacticonname {
+  margin-left: 8%;
+}
+
+.col .contacticondetail {
+  margin-top: 1%;
+  margin-left: 8%;
+  font-size: 15px;
+}
+
+.col .contacticondetail a {
+  text-decoration: none;
+  color: black;
+
+}
+
+.col2 .contacticonname {
+  margin-left: 16%;
+}
+
+.col2 .contacticondetail {
+  margin-top: 1%;
+  margin-left: 16%;
+  font-size: 15px;
+}
+
+.col2 .contacticondetail a {
+  text-decoration: none;
+  color: black;
+}
+
+/*about us*/
+.aboutus-container {
+  width: 100%;
+  background-color: rgb(220, 220, 220);
+  text-align: center;
+  color: black;
+  padding-top: 60px;
+  margin-bottom: 40px;
+  margin-top: 90px;
+}
+
+.aboutus-container h2{
+  margin-bottom: 5%;
+}
+
+.aboutus-container p{
+  padding-bottom: 3%;
+}
+
+
+@media only screen and (max-width: 600px) {
+  #mapid {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 50px;
+  }
+
+  .col .contacticonname {
+    margin-left: 16%;
+  }
+
+  .col .contacticondetail {
+    margin-top: 1%;
+    margin-left: 16%;
+    font-size: 15px;
+  }
+
+  .col2 {
+    flex-direction: column;
+    display: block;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .aboutus-container {
+    margin-top: 140px;
+  }
+
+
+
+  }
+
+
